@@ -3,10 +3,8 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const launch = "15 Aug 2021";
-
 function countdown() {
-    const newYearsDate = new Date(launch);
+    const newYearsDate = 1628969400;
     const currentDate = new Date();
 
     const totalSeconds = (newYearsDate - currentDate) / 1000;
