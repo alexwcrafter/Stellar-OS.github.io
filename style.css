@@ -23,7 +23,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #ffa400
+    color: #000000
 }
 
 .big-text {
@@ -31,17 +31,17 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
-    color: #ffa400;
+    color: #000000;
 }
 
 .countdown-el {
     text-align: center;
-    color: #ffa400
+    color: #000000
 }
 
 .countdown-el span {
     font-size: 1.3rem;
-    color: #ffa400
+    color: #000000
 }
 
 body {
