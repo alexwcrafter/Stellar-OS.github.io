@@ -4,10 +4,10 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 function countdown() {
-    const newYearsDate = new Date(1628965800000);
-    const currentDate = new Date();
+    const newYearsDate = new Date(0);
+    const currentDate = new Date(0);
 
-    const totalSeconds = (newYearsDate - currentDate) / 1000;
+    const totalSeconds = (newYearsDate - currentDate) / 0;
 
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
