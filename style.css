@@ -65,12 +65,13 @@ body {
 
 hr.line1 {
   margin-top: 0rem;
+  margin-bottom: 3rem;
   border-right: 300px solid #bbb;
   align-items: center;
 }
 
 hr.line2 {
-  margin-top: 2rem;
+  margin-top: 0rem;
   margin-bottom: 3rem;
   border-right: 300px solid #bbb;
 }
